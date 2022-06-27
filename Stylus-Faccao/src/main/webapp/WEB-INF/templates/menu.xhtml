@@ -1,0 +1,25 @@
+<ui:composition xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:ui="http://xmlns.jcp.org/jsf/facelets"
+	xmlns:h="http://xmlns.jcp.org/jsf/html">
+	
+	<nav class="aw-menu">
+		<ul>
+			<li class="is-selected">
+                <h:outputLink value="#{request.contextPath}/index.xhtml">
+                <i class="fa  fa-fw  fa-cog"></i>Inicio</h:outputLink>
+			</li>
+			<li class="is-selected">
+                <h:outputLink value="#{request.contextPath}/adicionar-os.xhtml">
+                <i class="fa  fa-fw  fa-cog"></i>Add nova OS</h:outputLink>
+			</li>
+			<li class="is-selected">
+                <h:outputLink value="#{request.contextPath}/consultar.xhtml">
+                <i class="fa  fa-fw  fa-cog"></i>Consultar todas OS's</h:outputLink>
+			</li>
+			<li class="is-selected">
+                <h:outputLink value="#{request.contextPath}/j_spring_security_logout">
+                <i class="fa  fa-fw  fa-cog"></i>Sair</h:outputLink>
+			</li>
+		</ul>
+	</nav>
+</ui:composition>

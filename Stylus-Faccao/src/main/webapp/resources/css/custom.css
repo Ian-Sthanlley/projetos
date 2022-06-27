@@ -1,0 +1,16 @@
+/* BASE */
+body {
+	margin: 0;
+	font-size: 13px;
+	font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* TABVIEW */
+.ui-tabs .ui-tabs-nav li.ui-tabs-selected a {
+	color: #555;
+}
+
+/* PANELGRID */
+.ui-panelgrid.panelgrid-noborder .ui-grid-responsive {
+	border: none;
+}
